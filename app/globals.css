@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #123456;
+    color: #fedcba;
+}
+
+.navbar {
+    background-color: #234567;
+    color: #edcba9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+.navbar ul li {
+    list-style: none;
+}
+
+a {
+    color: #fedc76
+}
